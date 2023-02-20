@@ -152,11 +152,11 @@
 
 #### updateUser with User.findOneAndUpdate()
 
-- [] add authenticateUser middleware in the route
-- [] check for name and email in the body
-- [] if one is missing, send 400 (optional)
-- [] use findOneAndUpdate()
-- [] create token user, attachCookiesToResponse and send back the tokenUser
+- [*] add authenticateUser middleware in the route
+- [*] check for name and email in the body
+- [*] if one is missing, send 400 (optional)
+- [*] use findOneAndUpdate()
+- [*] create token user, attachCookiesToResponse and send back the tokenUser
 
 #### updateUser with user.save()
 
@@ -164,22 +164,22 @@
 
 #### Product Model
 
-- [] create Product.js in models folder
-- [] create Schema
-- [] name : {type:String}
-- [] price: {type:Number}
-- [] description: {type:String}
-- [] image: {type:String}
-- [] category: {type:String}
-- [] company: {type:String}
-- [] colors: {type:[]}
-- [] featured: {type:Boolean}
-- [] freeShipping: {type:Boolean}
-- [] inventory:{type:Number}
-- [] averageRating:{type:Number}
-- [] user
-- [] set timestamps
-- [] export Product model
+- [*] create Product.js in models folder
+- [*] create Schema
+- [*] name : {type:String}
+- [*] price: {type:Number}
+- [*] description: {type:String}
+- [*] image: {type:String}
+- [*] category: {type:String}
+- [*] company: {type:String}
+- [*] colors: {type:[]}
+- [*] featured: {type:Boolean}
+- [*] freeShipping: {type:Boolean}
+- [*] inventory:{type:Number}
+- [*] averageRating:{type:Number}
+- [*] user
+- [*] set timestamps
+- [*] export Product model
 
 #### Product Structure
 
