@@ -79,7 +79,6 @@ const deleteReview = async (req, res) => {
   const { id: reviewID } = req.params;
 
   const review = await Review.findOne({ _id: reviewID });
-  console.log(review);
   if (!review) {
     throw new Errors.NotFoundError(`Review not found`);
   }
