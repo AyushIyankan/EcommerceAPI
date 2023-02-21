@@ -30,7 +30,7 @@ const orderSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
-    shipping: {
+    shippingFee: {
       type: Number,
       required: true,
     },
